@@ -1,7 +1,7 @@
 package Model;
 
 public class User {
-    int userid;
+  public int userid;
     String name;
 
     User(int userid,String name ){

@@ -1,12 +1,12 @@
 package Model;
 
 public class Book {
-int id;
+public int id;
 String author;
 String title;
-boolean Isissued;
+public boolean Isissued;
 
-Book(int id,String author,String title){
+public Book(int id,String author,String title){
     this.id=id;
     this.author=author;
     this.title=title;
@@ -14,7 +14,7 @@ Book(int id,String author,String title){
 
 }
 
-void displayBook(){
+public void displayBook(){
     System.out.println(
             id+" " +
             title+" "+
